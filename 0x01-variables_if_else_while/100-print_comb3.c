@@ -13,7 +13,7 @@ int main(void)
 		for (b = 1; b < 10; b++)
 		{
 			c = 10 * a + b;
-			
+
 			if (a != b && a < b)
 			{
 				putchar(a + '0');
@@ -27,7 +27,6 @@ int main(void)
 			}
 		}
 	}
-		putchar('\n');
-		
+	putchar('\n');
 		return (0);
 }
