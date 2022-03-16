@@ -5,7 +5,7 @@
  * @n: parameter
  * Retrun: end program
  */
-void print_times_table(int n)
+void times_table(int n)
 {
 	int a, m, p;
 	int c = 1;
