@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_times_table - function
- * @n: parameter
+ * times_table - function
+ * @a, m, p: parameter
  * Retrun: end program
  */
-void times_table(int n)
+void times_table(void)
 {
 	int a, m, p;
 	int c = 1;
