@@ -1,17 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * print_letter - alphabet in lowercase, followed by a new line
+ * print_alphabet - alphabet in lowercase, followed by a new line
  *
  * Return: Always 0
  */
 
-void print_letter(void)
+void print_alphabet(void)
 {
-	char letter;
+	char alphabet;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar(letter);
+		putchar(alphabet);
 	}
 
 		putchar('\n');
