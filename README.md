@@ -1,1 +1,1 @@
-debugging how to read err massages
+more functions and nested loops
