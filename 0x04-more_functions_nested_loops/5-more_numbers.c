@@ -18,7 +18,7 @@ void more_numbers(void)
 	{
 		while (result <= 14)
 		{
-			if (result <= 10)
+			if (result < 10)
 			{
 				second_number = result;
 			}
