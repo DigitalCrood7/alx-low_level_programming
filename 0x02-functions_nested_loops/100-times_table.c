@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * times_table - function
- * @a, m, p: parameter
+ * print_times_table - function
+ * @n: parameter
  * Retrun: end program
  */
-void times_table(void)
+void print_times_table(int n)
 {
 	int a, m, p;
 	int c = 1;
@@ -31,7 +31,7 @@ void times_table(void)
 				}
 				else if (c == 0 && p >= 1000)
 				{
-					printf(", %d", p);
+					printf(",%d", p);
 				}
 				else
 				{
