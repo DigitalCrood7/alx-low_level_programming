@@ -3,6 +3,7 @@
  * _strncat - concatenate two strings
  * @dest: A pointer to a character that will be changed
  * @src: A pointer to a character that will be changed
+ * @n: number of elements of the array
  * Return: dest
  */
 
