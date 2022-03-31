@@ -12,7 +12,7 @@ int is_prime(int x, int y)
 	if (x == y)
 		return (1);
 	else
-		return (_is_prime(x, y + 1));
+		return (is_prime(x, y + 1));
 }
 /**
  * is_prime_number - verifies that the number is prime
@@ -23,5 +23,5 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return (is_prime(n, 3));
+	return (is_prime(n, 2));
 }
