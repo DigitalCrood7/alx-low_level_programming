@@ -1,6 +1,11 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#include <stdio.h>
+/**
+ * main - prints the name of the file program was compiled from
+ * Return: Always 0
+ */
 
-#define PI 3.14159265359
-
-#endif
+int main(void)
+{
+printf("%s\n", __FILE__);
+return (0);
+}
